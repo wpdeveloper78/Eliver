@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                   Eliver Adventure
                 </div>
 
                 <div class="links">
