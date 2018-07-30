@@ -101,7 +101,7 @@
             </div>
         </div>
         <!-- Mobile Menu-->
-       @include('page.components.mobile_menu')
+       @include('components.mobile_menu')
     </div>
     <!-- Navbar-->
     <div class="navbar">
@@ -123,7 +123,7 @@
             </div>
         </div>
         <!-- Main Navigation-->
-        @include('page.components.menu')
+        @include('components.menu')
         <!-- Toolbar ( Put toolbar here only if you enable sticky navbar )-->
         <div class="toolbar">
             <div class="toolbar-inner">
