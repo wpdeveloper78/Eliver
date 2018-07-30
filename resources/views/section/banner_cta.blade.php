@@ -19,4 +19,5 @@
             </div>
         </div>
     </div>
-</section><a class="d-block position-relative mx-auto" href="shop-grid-ls.html" style="max-width: 682px; margin-top: -130px; z-index: 10;"><img class="d-block w-100" src="img/banners/shop-banner-02.png" alt="Printers"></a>
+</section>
+<a class="d-block position-relative mx-auto" href="shop-grid-ls.html" style="max-width: 682px; margin-top: -130px; z-index: 10;"><img class="d-block w-100" src="img/banners/shop-banner-02.png" alt="Printers"></a>
