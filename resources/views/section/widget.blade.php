@@ -1,36 +1,82 @@
 <section class="container padding-top-3x padding-bottom-2x">
-    <div class="row">
-        <div class="col-lg-4 col-sm-6">
-            <div class="card border-0 bg-secondary mb-30">
-                <div class="card-body d-table w-100">
-                    <div class="d-table-cell align-middle"><img class="d-block w-100" src="img/shop/categories/29.png" alt="Image"></div>
-                    <div class="d-table-cell align-middle pl-2">
-                        <h3 class="h6 text-thin">Tablets, Smartphones <br><strong>And more...</strong></h3>
-                        <h4 class="h6 d-table w-100 text-thin"><span class="d-table-cell align-bottom" style="line-height: 1.2;">UP<br>TO&nbsp;</span><span class="d-table-cell align-bottom h1 text-medium">50%</span><span class="d-table-cell align-bottom">&nbsp;off</span></h4><a class="text-decoration-none" href="shop-grid-ls.html">Shop now&nbsp;<i class="icon-chevron-right d-inline-block align-middle text-lg"></i></a>
+    <h2 class="h3 pb-3 text-center">Staff Picks</h2>
+    <div class="row pt-1">
+        <div class="col-md-4 col-sm-6">
+            <div class="widget widget-featured-products">
+                <h3 class="widget-title">Best Sellers</h3>
+                <!-- Entry-->
+                <div class="entry">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/01.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">GoPro Hero4 Silver</a></h4><span class="entry-meta">$287.99</span>
                     </div>
                 </div>
+                <!-- Entry-->
+                <div class="entry">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/02.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">Puro Sound Labs BT2200</a></h4><span class="entry-meta">$95.99</span>
+                    </div>
+                </div>
+                <!-- Entry-->
+                <div class="entry">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/03.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">HP OfficeJet Pro 8710</a></h4><span class="entry-meta">$89.70</span>
+                    </div>
+                </div><a class="btn btn-outline-secondary btn-sm mb-0" href="shop-grid-ls.html">View More</a>
             </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-            <div class="card border-0 bg-secondary mb-30">
-                <div class="card-body d-table w-100">
-                    <div class="d-table-cell align-middle"><img class="d-block w-100" src="img/shop/categories/30.png" alt="Image"></div>
-                    <div class="d-table-cell align-middle pl-2">
-                        <h3 class="h6 text-thin">DJ Phantom <span style='white-space: nowrap;'>HD Video Drone</span> <br><strong>Arrives</strong></h3>
-                        <h4 class="h6 d-table w-100 text-thin"><span class="d-table-cell align-top text-right" style="line-height: 1.2;">From&nbsp;<br><strong>$&nbsp;</strong></span><span class="d-table-cell align-top h1 text-medium">990</span></h4><a class="text-decoration-none" href="shop-grid-ls.html">Shop now&nbsp;<i class="icon-chevron-right d-inline-block align-middle text-lg"></i></a>
+        <div class="col-md-4 col-sm-6">
+            <div class="widget widget-featured-products">
+                <h3 class="widget-title">New Arrivals</h3>
+                <!-- Entry-->
+                <div class="entry pb-2">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/05.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">iPhone X 256 GB Space Gray</a></h4><span class="entry-meta">$1,450.00</span>
                     </div>
                 </div>
+                <!-- Entry-->
+                <div class="entry">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/04.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">Canon EOS M50 Mirrorless Camera</a></h4><span class="entry-meta">$910.00</span>
+                    </div>
+                </div>
+                <!-- Entry-->
+                <div class="entry">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/07.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">Microsoft Xbox One S</a></h4><span class="entry-meta">$298.99</span>
+                    </div>
+                </div><a class="btn btn-outline-secondary btn-sm mb-0" href="shop-grid-ls.html">View More</a>
             </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-            <div class="card border-0 bg-secondary mb-30">
-                <div class="card-body d-table w-100">
-                    <div class="d-table-cell align-middle"><img class="d-block w-100" src="img/shop/categories/31.png" alt="Image"></div>
-                    <div class="d-table-cell align-middle pl-2">
-                        <h3 class="h6 text-thin">Watches, Fitness Bands <br><strong>And more...</strong></h3>
-                        <h4 class="h6 d-table w-100 text-thin"><span class="d-table-cell align-bottom" style="line-height: 1.2;">UP<br>TO&nbsp;</span><span class="d-table-cell align-bottom h1 text-medium">39%</span><span class="d-table-cell align-bottom">&nbsp;off</span></h4><a class="text-decoration-none" href="shop-grid-ls.html">Shop now&nbsp;<i class="icon-chevron-right d-inline-block align-middle text-lg"></i></a>
+        <div class="col-md-4 col-sm-6">
+            <div class="widget widget-featured-products">
+                <h3 class="widget-title">Top Rated</h3>
+                <!-- Entry-->
+                <div class="entry pb-2">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/08.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">Samsung Gear 360 VR Camera</a></h4><span class="entry-meta">$68.00</span>
                     </div>
                 </div>
+                <!-- Entry-->
+                <div class="entry">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/09.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">Samsung Galaxy S9+ 64 GB</a></h4><span class="entry-meta">$839.99</span>
+                    </div>
+                </div>
+                <!-- Entry-->
+                <div class="entry">
+                    <div class="entry-thumb"><a href="shop-single.html"><img src="img/shop/widget/10.jpg" alt="Product"></a></div>
+                    <div class="entry-content">
+                        <h4 class="entry-title"><a href="shop-single.html">Zeus Bluetooth Headphones</a></h4><span class="entry-meta">$28.99</span>
+                    </div>
+                </div><a class="btn btn-outline-secondary btn-sm mb-0" href="shop-grid-ls.html">View More</a>
             </div>
         </div>
     </div>
