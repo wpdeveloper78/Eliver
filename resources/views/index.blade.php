@@ -40,7 +40,7 @@
 @include('shop.shop_list')
 <!-- CTA-->
 @include('section.banner_cta')
-<!-- Staff Picks (Widgets)-->
+<!-- Widgets -->
 @include('section.widget')
 <!-- Popular Brands Carousel-->
 @include('section.brand')
