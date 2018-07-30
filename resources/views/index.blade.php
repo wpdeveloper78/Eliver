@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>E-Liver | Adrenaline Adventure
+    <title>E-Liver | Extrime Adventure
     </title>
     <!-- SEO Meta Tags-->
-    <meta name="description" content="E-Liver - Adrenaline Adventure">
+    <meta name="description" content="E-Liver - La prima piattaforma dedicata agli sport estremi">
     <meta name="keywords" content="shop, e-commerce, modern, flat style, responsive, online store, business, mobile, blog, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean">
     <meta name="author" content="Rokaux">
     <!-- Mobile Specific Meta Tag-->
