@@ -33,49 +33,11 @@
         <!-- Main Navigation-->
         <nav class="site-menu">
             <ul>
-                <li class="has-submenu active"><a href="index.html">Home</a>
-                    <ul class="sub-menu">
-                        <li class="active has-children"><a href="index.html">Hero Slider</a>
-                            <ul class="sub-menu w-400 p-0 overflow-hidden">
-                                <li><a class="p-0" href="index.html"><img src="img/banners/home01.jpg" alt="Hero Slider Home"></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children"><a href="home-featured-categories.html">Categories Grid</a>
-                            <ul class="sub-menu w-400 p-0 overflow-hidden">
-                                <li><a class="p-0" href="home-featured-categories.html"><img src="img/banners/home02.jpg" alt="Categories Grid Home"></a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                <li class="has-submenu active"><a href="{{'/'}}">Home</a>
+
                 </li>
-                <li class="has-submenu"><a href="shop-grid-ls.html">Shop</a>
-                    <ul class="sub-menu">
-                        <li><a href="shop-categories.html">Shop Categories</a></li>
-                        <li class="has-children"><a href="shop-grid-ls.html">Shop Grid</a>
-                            <ul class="sub-menu">
-                                <li><a href="shop-grid-ls.html">Grid Left Sidebar</a></li>
-                                <li><a href="shop-grid-rs.html">Grid Right Sidebar</a></li>
-                                <li><a href="shop-grid-ns.html">Grid No Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children"><a href="shop-list-ls.html">Shop List</a>
-                            <ul class="sub-menu">
-                                <li><a href="shop-list-ls.html">List Left Sidebar</a></li>
-                                <li><a href="shop-list-rs.html">List Right Sidebar</a></li>
-                                <li><a href="shop-list-ns.html">List No Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="shop-single.html">Single Product</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li class="has-children"><a href="checkout-address.html">Checkout</a>
-                            <ul class="sub-menu">
-                                <li><a href="checkout-address.html">Address</a></li>
-                                <li><a href="checkout-shipping.html">Shipping</a></li>
-                                <li><a href="checkout-payment.html">Payment</a></li>
-                                <li><a href="checkout-review.html">Review</a></li>
-                                <li><a href="checkout-complete.html">Complete</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                <li class="has-submenu"><a href="{{'/shop'}}">Shop</a>
+
                 </li>
                 <li class="has-megamenu"><a href="#">Mega Menu</a>
                     <ul class="mega-menu">
