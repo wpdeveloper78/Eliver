@@ -105,3 +105,12 @@
         <p class="footer-copyright">© All rights reserved. Made with &nbsp;<i class="icon-heart text-danger"></i><a href="http://rokaux.com/" target="_blank"> &nbsp;by e-liver</a></p>
     </div>
 </footer>
+
+<!-- Back To Top Button--><a class="scroll-to-top-btn" href="#"><i class="icon-chevron-up"></i></a>
+<!-- Backdrop-->
+<div class="site-backdrop"></div>
+<!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
+<script src="{!! asset('js/vendor.min.js') !!}"></script>
+<script src="{!! asset('js/scripts.min.js') !!}"></script>
+</body>
+</html>

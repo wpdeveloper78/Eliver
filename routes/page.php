@@ -12,3 +12,7 @@ Route::get('/shop', function () {
 Route::get('/contatti', function () {
     return view('page.contatti');
 });
+
+Route::get('/login', function () {
+    return view('page.login');
+});
