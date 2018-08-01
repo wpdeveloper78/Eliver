@@ -19,6 +19,7 @@ class CreateClientTable extends Migration
             $table->string('surname', 255);
             $table->string('email')->unique();
             $table->string('password', 255);
+            $table->string('img', 255);
             $table->string('phone', 45);
             $table->string('vat', 255);
             $table->string('company', 255);
