@@ -15,6 +15,24 @@ class CreateProductTable extends Migration
     {
         Schema::create('product', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('product_id');
+            $table->string('product_code', 255);
+            $table->longText('product_title', 255);
+            $table->longText('product_description', 255);
+            $table->string('price', 255);
+            $table->string('price_sale', 255);
+            $table->string('quantity', 255);
+            $table->date('bookable_from');
+            $table->date('bookable_tu');
+            $table->string('product_category', 255);
+            $table->string('product_image', 255);
+            $table->string('product_video', 255);
+            $table->string('product_gallery', 255);
+            $table->longText('product_detail', 255);
+            $table->longText('product_specification', 255);
+            $table->longText('product_futures', 255);
+            $table->longText('specific_description', 255);
+            $table->longText('shipping_option', 255);
             $table->timestamps();
         });
     }
