@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Album;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,5 +14,9 @@
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/albums', function(){
+    return Album::all();
 });
 
