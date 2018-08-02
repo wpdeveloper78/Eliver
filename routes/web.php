@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Product;
+use App\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +17,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/product', function(){
-    return Product::all();
+Route::get('/user', function(){
+    return User::all();
 });
