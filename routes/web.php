@@ -1,6 +1,5 @@
 <?php
 
-use App\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,10 +12,5 @@ use App\User;
 */
 
 Route::get('/', function () {
-    return view('index');
-});
-
-
-Route::get('/user', function(){
-    return User::all();
+    return view('welcome');
 });
