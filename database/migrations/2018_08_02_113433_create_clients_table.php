@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateClientTable extends Migration
+class CreateClientsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,21 +15,20 @@ class CreateClientTable extends Migration
     {
         Schema::create('clients', function (Blueprint $table) {
             $table->increments('id');
+            $table->increments('id');
             $table->string('name', 255);
-            $table->string('surname', 255);
+            $table->string('firstName', 255);
+            $table->string('lastName', 255);
             $table->string('email')->unique();
             $table->string('password', 255);
-            $table->string('img', 255);
-            $table->string('phone', 45);
-            $table->string('vat', 255);
-            $table->string('company', 255);
-            $table->string('country', 255);
-            $table->string('route', 255);
-            $table->string('zip_code', 255);
+            $table->string('imageUrl', 255);
+            $table->string('phoneNumber', 255);
+            $table->string('iso8601', 255);
+            $table->string('city', 255);
+            $table->string('streetAddress', 255);
+            $table->string('postcode', 255);
             $table->string('state', 255);
-            $table->string('maps', 255);
-            $table->string('payment_method', 255);
-            $table->rememberToken();
+            $table->string('creditCardType', 255);
             $table->timestamps();
         });
     }
@@ -41,6 +40,6 @@ class CreateClientTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('client');
+        Schema::dropIfExists('clients');
     }
 }
