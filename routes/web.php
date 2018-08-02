@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Product;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,4 +14,9 @@
 
 Route::get('/', function () {
     return view('index');
+});
+
+
+Route::get('/product', function(){
+    return Product::all();
 });
