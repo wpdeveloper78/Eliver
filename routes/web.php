@@ -1,6 +1,8 @@
 <?php
 
 use App\Models\Album;
+use App\Models\Photo;
+use App\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +22,10 @@ Route::get('/albums', function(){
     return Album::all();
 });
 
+Route::get('/photos', function(){
+    return Photo::all();
+});
+
+Route::get('/users', function(){
+    return User::all();
+});

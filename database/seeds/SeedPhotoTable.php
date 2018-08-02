@@ -2,7 +2,6 @@
 
 use Illuminate\Database\Seeder;
 
-use App\Models\Photo;
 
 class SeedPhotoTable extends Seeder
 {
@@ -13,9 +12,6 @@ class SeedPhotoTable extends Seeder
      */
     public function run()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
-
-        Photo::truncate();
 
         factory(App\Models\Photo::class, 200)->create();
     }
