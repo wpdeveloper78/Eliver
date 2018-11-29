@@ -1,8 +1,7 @@
 <?php
 
-declare(strict_types=1);
-
 return [
+
     /*
     |--------------------------------------------------------------------------
     | Mail Driver
@@ -120,4 +119,5 @@ return [
             resource_path('views/vendor/mail'),
         ],
     ],
+
 ];

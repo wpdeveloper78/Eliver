@@ -1,11 +1,8 @@
 <?php
 
-declare(strict_types=1);
-
 namespace App\Providers;
 
-use Acme\Academic\Event\AcademicWasCreatedEvent;
-use App\Listeners\SendConfirmationEmailToAcademic;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider
@@ -16,16 +13,20 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        AcademicWasCreatedEvent::class => [
-            SendConfirmationEmailToAcademic::class,
+        'App\Events\Event' => [
+            'App\Listeners\EventListener',
         ],
     ];
 
     /**
      * Register any events for your application.
+     *
+     * @return void
      */
     public function boot()
     {
         parent::boot();
+
+        //
     }
 }

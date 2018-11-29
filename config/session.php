@@ -1,8 +1,7 @@
 <?php
 
-declare(strict_types=1);
-
 return [
+
     /*
     |--------------------------------------------------------------------------
     | Default Session Driver
@@ -194,4 +193,5 @@ return [
     */
 
     'same_site' => null,
+
 ];
