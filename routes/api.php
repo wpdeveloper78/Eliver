@@ -11,7 +11,7 @@ use App\Http\Controllers\WriteArticleController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return 'Api read';
+    return 'Api ready';
 });
 
 // Articles
